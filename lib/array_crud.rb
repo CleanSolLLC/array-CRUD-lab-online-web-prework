@@ -2,14 +2,14 @@ def create_an_empty_array =
 []
 end
 
-def create_an_array = [Mark, Cindy, Nicole, Natalie]
+def create_an_array(Mark,Cindy, Nicole, Natalie)
 end
 
-def add_element_to_end_of_array = [array, element]
+def add_element_to_end_of_array(array, element]
   add_element_to_end_of_array << "element2"
 end
 
-def add_element_to_start_of_array = [array, element]
+def add_element_to_start_of_array(array, element)
   add_element_to_start_of_array.unshift("count")
 end
 
