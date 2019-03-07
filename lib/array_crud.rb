@@ -2,7 +2,7 @@ def create_an_empty_array
 []
 end
 
-def create_an_array
+def create_an_array =
 [Mark, Cindy, Nicole, Natalie]
 end
 
@@ -27,9 +27,9 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  retrieve_first_element_from_array.first
+  retrieve_first_element_from_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  retrieve_last_element_from_array.last
+  retrieve_last_element_from_array[-1]
 end
