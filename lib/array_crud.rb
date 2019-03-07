@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-[mark, Cindy, Nicole, Natalie]
+[Mark, Cindy, Nicole, Natalie]
 end
 
 def add_element_to_end_of_array(array, element)
-  add_element_to_end_of_array << "2nd_element"
+  add_element_to_end_of_array << "element2"
 end
 
 def add_element_to_start_of_array(array, element)
-  add_element_to_end_of_array.unshift("count")
+  add_element_to_start_of_array.unshift("count")
 end
 
 def remove_element_from_end_of_array(array)
@@ -19,7 +19,7 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  remove_element_from_end_of_array.shift
+  remove_element_from_start_of_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
